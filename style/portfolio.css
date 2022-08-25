@@ -3,6 +3,12 @@
     --lato-font: 'Lato', sans-serif;
 }
 
+
+
+body {
+    text-align: center;
+}
+
 h1 {
     font-family: var(--lato-font);
     font-weight: normal;
@@ -15,7 +21,7 @@ h3 {
     padding-bottom: 40px;
 }
 
-p {
+.hello {
     font-family: var(--popins-font);
     font-weight: bold;
     font-size: 36px;
@@ -46,3 +52,67 @@ p {
     box-shadow: 2px 3px 5px rgb(56, 55, 55);
     transition: 1s;
 }
+
+.project {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: var(--lato-font);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+img {
+    max-width: 600px;
+}
+
+.name_of_project {
+    text-align: center;
+    font-family: var(--popins-font);
+}
+
+.info_project {
+    padding-left: 40px;
+}
+
+.info_project p {
+    color: gray;
+    font-family: var(--lato-font);
+    margin-bottom: 100px;
+}
+
+.button_of_project {
+    border: 1px solid blue;
+    padding: 18px 27px;
+    font-family: var(--popins-font);
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button_of_project:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+@media (max-width: 800px) {
+    img {
+        display: none;
+    }
+    .info_project {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 64px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .name_of_project {
+        font-size: 36px;
+    }
+    .hello {
+        font-size: 24px;
+    }
