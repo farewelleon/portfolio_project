@@ -1,9 +1,48 @@
+:root {
+    --popins-font: 'Poppins', sans-serif;
+    --lato-font: 'Lato', sans-serif;
+}
+
 h1 {
-    font-family: 'Silkscreen', cursive;
+    font-family: var(--lato-font);
     font-weight: normal;
+    font-size: 96px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: normal;
+    padding-bottom: 40px;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--popins-font);
     font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 160px 0;
+    background: rgba(236, 243, 245, 0.966);
+}
+
+.contact_me_button {
+    font-family: var(--popins-font);
+    text-decoration: none;
+    border: 1px solid rgb(140, 140, 238);
+    padding: 20px 35px;
+    border-radius: 4px;
+    background-color: rgb(140, 140, 238);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 3px 7px 5px rgb(56, 55, 55);
+}
+
+.contact_me_button:hover {
+    color: black;
+    box-shadow: 2px 3px 5px rgb(56, 55, 55);
+    transition: 1s;
 }
