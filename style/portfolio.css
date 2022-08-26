@@ -45,12 +45,15 @@ h3 {
     font-size: 18px;
     font-weight: bold;
     box-shadow: 3px 7px 5px rgb(56, 55, 55);
+    transition: color 300ms, box-shadow 200ms;
 }
 
 .contact_me_button:hover {
     color: black;
+}
+
+.contact_me_button:active {
     box-shadow: 2px 3px 5px rgb(56, 55, 55);
-    transition: 1s;
 }
 
 .project {
@@ -96,8 +99,46 @@ img {
     border: 1px solid black;
 }
 
+.content {
+    max-width: 800px
+}
+
+.photoMe img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutMeSection p {
+    margin-bottom: 60px;
+}
+
+.aboutMeSection {
+    padding: 160px 0;
+    text-align: center;
+    display: flex;
+}
+
+.aboutMeText h1 {
+    font-weight: bold;
+    font-size: 76px;
+    margin-bottom: 20px;
+}
+
+.aboutMeText h4 {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: var(--popins-font);
+    margin-bottom: 30px
+}
+
+
+
+
+
+
 @media (max-width: 800px) {
-    img {
+    .project img {
         display: none;
     }
     .info_project {
@@ -116,7 +157,17 @@ img {
     .hello {
         font-size: 24px;
     }
+    .aboutMeSection {
+        display: block;
+        padding-top: 50px;
+
     }
-.content {
-    max-width: 800px
-}
+    .photoMe img {
+        margin-top: 50px;
+        width: 90%;
+    }
+    .aboutMeText {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    }
