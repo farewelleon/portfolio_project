@@ -93,6 +93,7 @@ img {
     font-family: var(--popins-font);
     text-decoration: none;
     border-radius: 4px;
+    color: blue;
 }
 
 .button_of_project:hover {
@@ -133,10 +134,38 @@ img {
     margin-bottom: 30px
 }
 
+.pages {
+    padding: 0;
+    margin: 0;
+    word-spacing: 20px;
+}
 
+li {
+    display: inline;
+}
 
+a {
+    text-decoration: none;
+    color: rgb(109, 113, 116);
+}
 
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    background-color: white;
+}
 
+a:hover {
+    color: rgb(64, 66, 68);
+}
+
+nav li.active a {
+    color: black;   
+}
 
 @media (max-width: 800px) {
     .project img {
@@ -155,20 +184,10 @@ img {
     .name_of_project {
         font-size: 36px;
     }
-    .hello {
-        font-size: 24px;
+    nav {
+        justify-content: space-evenly;
     }
-    .aboutMeSection {
-        display: block;
-        padding-top: 50px;
-
-    }
-    .photoMe img {
-        margin-top: 50px;
-        width: 90%;
-    }
-    .aboutMeText {
-        margin-left: 20px;
-        margin-right: 20px;
+    .content {
+        padding: 0px 40px;
     }
     }
