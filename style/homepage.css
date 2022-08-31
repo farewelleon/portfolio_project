@@ -287,4 +287,7 @@ footer {
     .contact-block {
         display: none;
     }
+    .email {
+        font-size: 24px;
+    }
     }
