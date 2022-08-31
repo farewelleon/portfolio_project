@@ -180,6 +180,15 @@ nav img {
 
 
 
+.open-code {
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+p a {
+    color: rgb(140, 140, 238);
+}
 
 
 footer {

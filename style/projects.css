@@ -217,8 +217,21 @@ footer {
     background-color: rgb(140, 140, 238);
 }
 
+.open-code {
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
 
+p a {
+    color: rgb(140, 140, 238);
+}
 
+p {
+    font-family: var(--lato-font);
+    font-size: 20px;
+    font-weight: 400;
+}
 
 @media (min-width: 768px) {
 .container_image {
