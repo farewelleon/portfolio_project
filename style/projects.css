@@ -9,7 +9,7 @@ h1 {
     padding-bottom: 50px;
     font-weight: bold;
 }
-body {
+.project_page {
     width: 100%;
     margin: 0 auto;
     max-width: 1000px;
@@ -63,6 +63,7 @@ img {
     max-width: 300px;
     color: blue;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .projectButton:hover {
@@ -72,7 +73,7 @@ img {
 
 .pages {
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
     word-spacing: 20px;
 }
 
@@ -87,21 +88,29 @@ a {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 20px 0;
     background-color: white;
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+    width: 100%;
 }
 
 
 a:hover {
-    color: rgb(64, 66, 68);
+    color: rgb(140, 140, 238);
+    font-weight: bold;
 }
 
 nav li.active a {
-    color: black;   
+    color: rgb(140, 140, 238);
+    font-weight: bold;   
+}
+
+nav img {
+    max-width: 45px;
+    border-radius: 50%;
 }
 
 @media (min-width: 768px) {
@@ -118,6 +127,9 @@ nav li.active a {
     h1 {
         font-size: 48px;
         text-align: center;
+    }
+    nav {
+        justify-content: space-evenly;
     }
 }
 
